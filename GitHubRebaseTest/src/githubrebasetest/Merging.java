@@ -13,4 +13,12 @@ package githubrebasetest;
 public class Merging {
     private String branch;
     private String master;
+
+    public Merging() {
+    }
+
+    public Merging(String branch, String master) {
+        this.branch = branch;
+        this.master = master;
+    }
 }
