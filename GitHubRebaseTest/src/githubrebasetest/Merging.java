@@ -21,4 +21,12 @@ public class Merging {
         this.branch = branch;
         this.master = master;
     }
+    
+    public boolean gitMerge() {
+        System.out.println("git merge");
+        if (this.branch != null) {
+            return true;
+        }
+        return false;
+    }
 }
