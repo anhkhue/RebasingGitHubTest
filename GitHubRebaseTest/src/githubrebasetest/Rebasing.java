@@ -21,5 +21,13 @@ public class Rebasing {
         this.name = name;
         this.feature = feature;
     }
+    
+    public boolean gitRebase() {
+        System.out.println("git rebase");
+        if (this.name != null) {
+            return true;
+        }
+        return false;
+    }
 
 }
